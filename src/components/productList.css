@@ -1,0 +1,62 @@
+/* ProductList.css */
+
+/* Fondo de toda la página */
+body {
+    background-color: #dbdbdb; /* Fondo gris claro */
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Contenedor principal del componente */
+  #my-store-109051751 {
+    padding: 20px;
+    background-color: #142199; /* Fondo gris oscuro del contenedor de la tienda */
+    border-radius: 8px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Tarjetas de los productos */
+  .ecwid-productBrowser-productsGrid-product, 
+  .ecwid-productList-item, 
+  .ecwid-productBrowser-grid-product {
+    background-color: #002b5c ; /* Fondo azul oscuro */
+    color: #1402b7 ; /* Color de texto blanco */
+    border: 1px solid #003366; /* Borde ligeramente más claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Efecto hover en las tarjetas */
+  .ecwid-productBrowser-productsGrid-product:hover, 
+  .ecwid-productList-item:hover, 
+  .ecwid-productBrowser-grid-product:hover {
+    transform: scale(1.05); /* Agrandar ligeramente en hover */
+    background-color: #00509e ; /* Azul más claro al pasar el cursor */
+  }
+  
+  /* Botones dentro de las tarjetas de productos */
+  .ecwid-productBrowser-productsGrid-product .ecwid-productBrowser-productsGrid-product__buyButton,
+  .ecwid-productList-item .ecwid-productList-item-buyNowButton,
+  .ecwid-productBrowser-grid-product .ecwid-productBrowser-grid-product__buyButton {
+    background-color: #007bff ; /* Botón azul */
+    color: #3e37c5 ;
+    border-radius: 5px;
+    padding: 10px 15px;
+  }
+  
+  /* Títulos de los productos */
+  .ecwid-productBrowser-productsGrid-product__title,
+  .ecwid-productList-item-title,
+  .ecwid-productBrowser-grid-product__title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
